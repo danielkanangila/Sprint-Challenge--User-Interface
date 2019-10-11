@@ -34,13 +34,39 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is the recommended standard for HTML markup. It's all the standardized tags used to markup a web page and providing meaning to the html page content. 
+
+e.g: 
+```html
+    <p></p>
+    <div></div>
+    <header></header>
+    <section></section>
+```
+etc,
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+The elements with ```display: block;``` property can take up as much space as their parent will allow while the ```display: inline;``` elements can be nested inside of other elements without disrupt the flow of content.
 
 3. What are the 4 areas of the box model?
 
+The 4 areas of the box model are:
+
+* Content
+* Padding
+* Border
+* Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The ```align-items: center``` property work on cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is used to track code changes, in a team of developers it help to avoid overiding each other and prevent conflict between code version.
+
+----
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
