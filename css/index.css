@@ -105,6 +105,7 @@ a {
     position: relative;
     padding: 1rem 2.5rem;
     color: #000;
+    text-align: center;
 }
 
 .navbar nav a::after {
@@ -371,4 +372,44 @@ form {
 
 .form-control label span {
     color: red
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.bl-card {
+    margin-bottom: 20px;
+}
+
+.bl-btn {
+    padding: 7px 30px;
+    margin-bottom: 20px;
+}
+
+.ch-img {
+    width: 370px;
+}
+
+.ch-bl-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.bl-card .text {
+    margin-bottom: 20px;
+}
+
+.caption {
+    margin: 15px 0;
+}
+
+.ch-bl-author {
+    display: block;
+    margin-bottom: 2px;
+}
+.date {
+    font-size: 14px;
+    color: rgb(114, 114, 114);
 }
